@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>Watch recommendation </h1>
+	{%for i in get_list%}
+
+	<a href="/list/suggested/{{i.pk}}/">{{i.list_name}}</a><br>
+	
+
+	{%endfor%}
+</body>
+</html>

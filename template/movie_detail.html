@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>Movies</center>
+	{%if a.movie_logo%}
+	
+      <img src="https://image.tmdb.org/t/p/w500/{{a.movie_logo}}" class="card-media-img" />
+
+    {%else%}
+      <img src="https://www.gijoeelite.com/assets/images/no%20image.jpg"  class="card-media-img" />
+
+
+    {%endif%}
+    {%if a%}
+	<h1>Title:{{a.movie_name}}</h1>
+	<p>Overview:<br>{{a.movie_desc}}</p>
+	
+	{%endif%}
+
+	
+</body>
+</html>
