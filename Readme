@@ -4,3 +4,8 @@ To Activate : myvenv\Scripts\activate
 Then Install django : pip install django
 
 To run server : python manage.py runserver
+
+Note:
+here is the website hosted http://yash12.pythonanywhere.com/
+But pythonanywhere.com don't allow to call other other website 
+but if you want to run website perfectly, just download and run
