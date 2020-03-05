@@ -2,9 +2,6 @@ from django.shortcuts import render,HttpResponse,redirect,get_object_or_404
 import http.client
 from .models import *
 import json
-import pandas as pd
-import numpy as np
-from numpy import cov
 import collections
 
 # Create your views here.
