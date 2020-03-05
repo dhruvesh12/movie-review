@@ -1,0 +1,6 @@
+To create environment - python -m venv myvenv
+To Activate : myvenv\Scripts\activate
+
+Then Install django : pip install django
+
+To run server : python manage.py runserver
